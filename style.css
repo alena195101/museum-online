@@ -1,4 +1,8 @@
-@import "src/fonts/roboto/roboto.css";
+
+@font-face {
+    font-family: roboto;
+    src: url("src/fonts/roboto.css");
+}
 @font-face {
     font-family: AvenirNext;
     src: url("src/fonts/Avenir Next.ttf");
@@ -30,21 +34,19 @@
     src: url("src/fonts/HelveticaNeue-Bold.ttf");
 }
 h1{
-    font-size: 300%;
+    font-size: 250%;
     font-family: Helvetica;
-    font-weight: bolder;
     line-height: 125%;
 }
 h2{
-    font-size: 250%;
+    font-size: 150%;
     font-weight: bolder;
-    font-family: Calibri2;
+    font-family: AvenirNext;
     line-height: 125%;
 }
 h3{
-    font-size: 250%;
-    font-weight: bold;
     font-family: Graphik;
+    color: rgba(0,0,0,0.502);
     line-height: 125%;
 }
 h4{
@@ -126,10 +128,50 @@ button:hover, #submit:hover{
     font-size: 60px;
     padding-bottom: 100px;
 }
-#round{
-        border-radius: 50%;
-        width: 100%;
+#intro{
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
 }
+.row{    
+    margin: 50px 0;
+}
+.div_photo{
+    overflow: hidden;
+    background: #000;
+    width: 90%;
+    margin: 0 5%;
+    border-radius: 50%;
+    position: relative;
+}
+
+.photo{
+    width: 100$;
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear;
+}
+.img_descript{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #fff;
+    visibility: hidden;
+    transition: visibility 124ms;
+}
+.photo:hover {
+    cursor: pointer;
+    display: block;
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.div_photo:hover .img_descript {
+  visibility: visible;
+}
+.photo_text{
+    text-align: center;
+}
+
 /*#petrolhead{
     background: url("src/img/1.jpg") 50% 50%;
     background-size: cover;
@@ -174,31 +216,9 @@ img{
     width: calc((100% - 453px) / 10 * 4);
     vertical-align: top;
 }
-h2, h3, p{
-    margin: 20px 0 20px 0;
-}
-h2{
-    font-size: 300%;
-}
-h3{
-    font-size: 200%;
-}
-p{
-    font-size: 110%;
-    font-family: Graphik;
-}
-.h{
-    background-color: whitesmoke;
-}
-.h .face{
-    padding: 0 150px 0 75px;
-}
-.h .ref{
-    padding: 0 75px 0 150px;
-}
-.m{
-    display: none;
-}
+
+
+
 button{
     font-size: 16px;
 }
@@ -227,9 +247,7 @@ header{
     font-family: Roboto;
     font-weight: 900;
 }
-body{
-    margin-top: 43px !important;
-}
+
 strike{
     color: red;
 }

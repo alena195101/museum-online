@@ -9,7 +9,7 @@
 </head>
 <header>
     <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
+   <!-- <script type="text/javascript" >
         (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
             m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
@@ -20,38 +20,88 @@
             accurateTrackBounce:true,
             webvisor:true
         });
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/50380648" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    </script>-->
+    <!--<noscript><div><img src="https://mc.yandex.ru/watch/50380648" style="position:absolute; left:-9999px;" alt="" /></div></noscript>-->
     <!-- /Yandex.Metrika counter -->
 </header>
 <body>
     <div class="welcome">
         <div class="welcome_text">
-            <h1>Проссмотр музея</h1>
-            <a href = '#gallery' class='scrollDownButton'><img src="src/img/arrows%20white.png" class="scrollDown"></a>
+            <h1>Проссмотр музеев</h1>
+            <a href = '#intro' class='scrollDownButton'><img src="src/img/arrows%20white.png" class="scrollDown"></a>
         </div>
     </div>
-    <div class="container" id = "gallery">
-        <div class="row row-cols-3">
-            <div class="col ">Column
-                <div id = 'round'>
-                   <!--\<a href = 'https://pano.hermitagemuseum.org/3d/html/pwoa/main/#node338'></a>-->
-                   <img src='src/img/hermitage.jpeg'>
-                </div>
-            </div>
-            <div class="col ">Column</div>
-                <div id = 'round'>
-                   <!--\<a href = 'https://pano.hermitagemuseum.org/3d/html/pwoa/main/#node338'></a>-->
-                   <img src='src/img/hermitage.jpeg'>
-                </div>
-            <div class="col ">Column</div>
-                <div id = 'round'>
-                   <!--\<a href = 'https://pano.hermitagemuseum.org/3d/html/pwoa/main/#node338'></a>-->
-                   <img src='src/img/hermitage.jpeg'>
-                </div>
-    </div>
+    <div id = "intro">
+        <h1>Виртуальный тур</h1>
+        <h3>круговые панормамы знаменитых музеев</h3>
     </div>
 
+    <div class="container" id = "gallery">
+        <div class="row">
+            <div class="col ">
+                <div class = 'div_photo'>
+                    <a href = 'https://pano.hermitagemuseum.org/3d/html/pwoa/main/#node338'><img class = 'photo' src='src/img/hermitage.jpeg'></a>
+                    <h3 class='img_descript'> Обзор</h3>
+                </div>
+                <div class="photo_text">
+                    <h2>Государственный <br>Эрмитаж</h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class = 'div_photo'>
+                   <a href = 'https://yandex.ru/maps/-/C8CaMUkh'><img class = 'photo' src='src/img/tretyakov.jpg'></a>
+                   <h3 class='img_descript'> Обзор</h3>
+                </div>
+                <div class="photo_text">
+                    <h2>Третьяковская <br>Галерея</h2>
+                </div>
+                
+            </div>
+            <div class="col ">
+                <div class = 'div_photo'>
+                <a href = 'https://artsandculture.google.com/streetview/the-pushkin-state-museum-of-fine-arts-moscow/twHHbYSKj4PMgQ'>
+                    <img class = 'photo' src='src/img/puskin.jpg'>
+                </a>
+                   <h3 class='img_descript'> Обзор</h3>
+                </div>
+                <div class="photo_text">
+                    <h2>Государственный музей<br>изобразительных искусств<br>имени А. С. Пушкина</h2>
+                </div>
+            </div>
+         </div>   
+        <div class="row">
+            <div class="col ">
+                <div class = 'div_photo'>
+                <a href = 'https://artsandculture.google.com/streetview/the-pushkin-state-museum-of-fine-arts-moscow/twHHbYSKj4PMgQ'>
+                    <img class = 'photo' src='src/img/hermitage.jpeg'>
+                </a>
+                   <h3 class='img_descript'> Обзор</h3>
+                </div>
+                <div class="photo_text">
+                    <h2>Государственный музей<br>изобразительных искусств<br>имени А. С. Пушкина</h2>
+                </div>
+            </div>
+            <div class="col">
+                <div class = 'div_photo'>
+                   <!--\<a href = 'https://pano.hermitagemuseum.org/3d/html/pwoa/main/#node338'></a>-->
+                   <img class = 'photo' src='src/img/hermitage.jpeg'>
+                   <h3 class='img_descript'> Обзор</h3>
+                </div>
+                Column
+            </div>
+            <div class="col ">
+                <div class = 'div_photo'>
+                   <!--\<a href = 'https://pano.hermitagemuseum.org/3d/html/pwoa/main/#node338'></a>-->
+                   <img class = 'photo' src='src/img/hermitage.jpeg'>
+                   <h3 class='img_descript'> Обзор</h3>
+                </div>
+                Column
+            </div>
+
+        </div>
+    </div>
+
+<!--<div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/?from=api-maps&l=stv%2Csta&ll=37.622504%2C55.753215&origin=jsapi_2.1.74&panorama%5Bdirection%5D=102.578119%2C-4.671050&panorama%5Bfull%5D=true&panorama%5Bpoint%5D=37.620210%2C55.741202&panorama%5Bspan%5D=116.483765%2C55.438321&utm_medium=mapframe&utm_source=maps&z=10" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс.Карты — поиск мест и адресов, городской транспорт</a><iframe src="https://yandex.ru/map-widget/v1/-/C8CQA0iu" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>-->
     
 <script type="text/javascript">
         $(".scrollDownButton").click(function(e) {
