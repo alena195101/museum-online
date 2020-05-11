@@ -65,20 +65,16 @@ body{
     margin: 0;
     min-width: 1275px;
     display: inline-block;
-// padding-top: 75px;
     font-family: Bebas;
-    //overflow-x: hidden;
 }
 nav{
-//width: 40%;
+
     width: 100%;
-//display: inline-block;
     line-height: 75px;
     vertical-align: top;
     text-align: center;
     position: fixed;
-//margin-left: calc(50% - 353px);
-//margin-left: 25px;
+
 }
 nav ul{
     margin: 0;
@@ -130,8 +126,10 @@ button:hover, #submit:hover{
     font-size: 60px;
     padding-bottom: 100px;
 }
-#sosaunders{
-    height: calc(100vh - 43px);
+#round{
+        background-image: url("src/img/hermitage.jpeg");
+        border-radius: 50%;
+        width: 100%;
 }
 /*#petrolhead{
     background: url("src/img/1.jpg") 50% 50%;
@@ -216,53 +214,7 @@ p{
     max-width: 100%;
     font-family: Roboto;
 }
-.one{
-    font-size: 200% !important;
-    line-height: 105%;
-    font-family: Helvetica !important;
-    font-weight: bolder;
-}
-.two{
-    font-size: 32px !important;
-    line-height: 100%;
-    font-family: Calibri2 !important;
-    font-weight: normal;
-    text-transform: uppercase;
-    margin: 25px 0;
-}
-#MM_bg, #MM_contacts{
-    background: transparent;
-    position: fixed;
-    z-index: -1;
-    width: 100%;
-    vertical-align: middle;
-}
-#MM_contacts{
-    line-height: 43px;
-    height: 43px;
-    vertical-align: middle;
-    background-color: black;
-}
-#MM_bg{
-    top: 43px;
-    height: 88px;
-    background-color: #00202f;
-    display: none;
-}
-#mobile_menu{
-    display: none;
-}
-#MM_tel, #MM_mail, #MM_goback{
-    text-decoration: none;
-    color: white;
-    line-height: 43px;
-    font-size: 17px;
-    padding-left: 50px;
-    font-family: Roboto;
-}
-#MM_mail{
-    padding-left: 25px;
-}
+
 header{
     display: inline-block;
 //background: rgb(0, 0, 0);
