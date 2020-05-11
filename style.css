@@ -152,8 +152,11 @@ button:hover, #submit:hover{
 }
 .img_descript{
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 45%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
     color: #fff;
     visibility: hidden;
     transition: visibility 124ms linear;
