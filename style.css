@@ -161,7 +161,7 @@ button:hover, #submit:hover{
     visibility: hidden;
     transition: visibility 124ms linear;
 }
-.photo:hover {
+.photo_t:hover  .photo{
     cursor: pointer;
     display: block;
     opacity: 0.8;
@@ -169,7 +169,7 @@ button:hover, #submit:hover{
 }
 
 
-.div_photo:hover .img_descript {
+.photo_t:hover .img_descript {
     visibility: visible;
 }
 .photo_text{
