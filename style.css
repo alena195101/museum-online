@@ -156,7 +156,7 @@ button:hover, #submit:hover{
     left: 40%;
     color: #fff;
     visibility: hidden;
-    transition: visibility 124ms;
+    transition: visibility 124ms linear;
 }
 .photo:hover {
     cursor: pointer;
@@ -165,8 +165,9 @@ button:hover, #submit:hover{
     transform: scale(1.05);
 }
 
+
 .div_photo:hover .img_descript {
-  visibility: visible;
+    visibility: visible;
 }
 .photo_text{
     text-align: center;
