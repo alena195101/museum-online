@@ -263,11 +263,6 @@ strike{
 }
 
 @media all and (max-device-width: 1275px){
-    article{
-        background: url("src/img/asphalt_vert.jpg") 100% 100% fixed;
-        background-size: cover;
-        max-width: 100%;
-    }
     .welcome{
         display: table;
         height: calc(100vh - 4cm);
@@ -276,16 +271,10 @@ strike{
         min-width: 100%;
         max-width: 100%;
     }
-    #sosaunders{
-        background: url("src/img/Photo_original_114.jpg") center no-repeat !important;
-        background-size: cover !important;
-    }
     .welcome_text{
         display: table-row;
         width: 100%;
         vertical-align: middle;
-    //background: rgba(0,0,0,0.6);
-    //height: 100%;
     }
     .welcome_text h1{
         display: table-cell;
@@ -293,47 +282,6 @@ strike{
         text-align: center;
         color: white;
         font-size: 450%;
-    }
-    #petrolhead{
-        background: url("src/img/1.jpg") 50% 50%;
-        background-size: cover;
-    }
-    #petrolhead h2{
-        display: table-cell;
-        vertical-align: middle;
-        text-align: center;
-        color: white;
-    }
-    .crewman{
-        display: block;
-        padding: 150px 0 150px 0;
-        margin: 0;
-        background-color: white;
-    }
-    .face{
-        display: inline-block;
-        margin: 50px 10% 25px 10%;
-        padding: 0;
-        width: 80%
-    }
-    img{
-        width: 100%;
-    }
-    .ref{
-        display: inline-block;
-        padding: 10% 5% 25px 5%;
-        width: 89%;
-        vertical-align: top;
-    }
-    .crewman{
-        display: none;
-    }
-    .m{
-        display: block;
-    }
-    button{
-        font-size: 1cm !important;
-        padding: 5px 0;
     }
 
 
@@ -375,12 +323,7 @@ strike{
         line-height: 1.6cm;
         font-size: 1cm;
     }
-    body{
-        padding-top: 4cm;
-        margin-top: 0 !important;
-        overflow-x: auto;
-        min-width: 0 !important;
-    }
+
     .mouse{
         display: none;
     }
