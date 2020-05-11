@@ -106,14 +106,6 @@ button:hover, #submit:hover{
     cursor: pointer;
 }
 
-_::-webkit-full-page-media, _:future, :root  .welcome{
-    background: url(src/img/crew_welcome.jpg) 0% 35% fixed;
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    position: relative;
-
-}
 
 .welcome{
     display: table;
