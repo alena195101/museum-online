@@ -127,7 +127,6 @@ button:hover, #submit:hover{
     padding-bottom: 100px;
 }
 #round{
-        background-image: url("src/img/hermitage.jpeg");
         border-radius: 50%;
         width: 100%;
 }
