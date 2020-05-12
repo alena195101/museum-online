@@ -192,14 +192,6 @@ img{
     width: calc((100% - 453px) / 10 * 4);
     vertical-align: top;
 }
-
-
-
-button{
-    font-size: 16px;
-}
-
-
 p{
     line-height: 150%;
     font-weight: 300;
@@ -252,6 +244,9 @@ header{
     h1{
         font-size: 300%;
     }
+    h2{
+        font-size: 2.5rem;
+    }
     h3{
         font-size: 2rem;
     }
@@ -262,79 +257,14 @@ header{
         line-height: 150% !important;
     }
 
-    
-
+    #gallery{
+        max-width: 95vw;
+    }
+    .div_photo{
+        margin-bottom: 10px;
+    }
     .mouse{
         display: none;
-    }
-    #head{
-        min-height: calc(100vh - 4cm);
-        max-height: calc(100vh - 4cm);
-        height: calc(100vh - 4cm);
-        background: url("src/img/drift site gift 2.jpg") 50% 50% no-repeat;
-        background-size: cover;
-    }
-    .one{
-        font-family: Helvetica !important;
-        font-size: 2cm !important;
-        font-weight: bolder !important;
-        line-height: 125% !important;
-        margin-left: 5%;
-    }
-    .two{
-        font-size: 1.6cm !important;
-        margin-left: 5%;
-    }
-
-    #MM_logo{
-        margin-left: 1cm;
-        max-height: 2cm;
-        margin-top: 1cm;
-        margin-bottom: 1cm;
-        width: auto;
-    }
-    #mobile_menu{
-        display: inline-block;
-    }
-    #callback{
-        width: 100%;
-        margin-right: 0;
-    }
-
-
-
-    #MM_contacts{
-        display: none;
-    }
-    #MM_bg{
-        display: block;
-        background-color: #00202f;
-        position: fixed;
-        top: 0;
-        z-index: -1;
-        width: 100%;
-        vertical-align: middle;
-    }
-    #mobile_menu{
-        float: right;
-        margin-right: 0.5cm;
-    }
-    #MM_logo{
-        margin-left: 1cm;
-        max-height: 2cm;
-        margin-top: 1cm;
-        margin-bottom: 1cm;
-    }
-    #mobile_menu{
-        display: inline-block;
-    }
-    #mobile_menu img{
-        height: 2cm;
-        margin: 1cm 0.5cm;
-        width: auto;
-    }
-    #mobile_menu_opener{
-        margin-right: 1cm !important;
     }
     .scrollDown{
         position: absolute;
