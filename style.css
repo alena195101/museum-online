@@ -63,9 +63,7 @@ li{
     font-family: Graphik;
 }
 body{
-    width: 100%;
     margin: 0;
-    min-width: 1275px;
     display: inline-block;
     font-family: Bebas;
 }
@@ -181,6 +179,9 @@ _::-webkit-full-page-media, _:future, :root  .welcome{
 .photo_text{
     text-align: center;
 }
+.col_ph{
+    margin-bottom: 50px;
+}
 
 img{
     width: 100%;
@@ -248,8 +249,12 @@ header{
         color: white;
         font-size: 450%;
     }
-
-
+    h1{
+        font-size: 300%;
+    }
+    h3{
+        font-size: 2rem;
+    }
     p{
         width: 90%;
         margin: 5%;
@@ -257,37 +262,7 @@ header{
         line-height: 150% !important;
     }
 
-    nav{
-        text-align: left;
-    }
-    #MM_logo{
-        margin-left: 1cm;
-        max-height: 2cm;
-        margin-top: 1cm;
-        margin-bottom: 1cm;
-    }
-    #MM_contacts{
-        text-align: center;
-    }
-    #MM_tel{
-        padding-left: 0;
-    }
-    #MM_contacts {
-        line-height: 1.6cm;
-        height: 1.6cm;
-        display: none;
-    }
-
-    #MM_bg {
-        height: 4cm;
-        display: inline-block;
-        top: 0;
-    }
-
-    #MM_tel, #MM_mail {
-        line-height: 1.6cm;
-        font-size: 1cm;
-    }
+    
 
     .mouse{
         display: none;
