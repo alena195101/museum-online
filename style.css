@@ -104,7 +104,14 @@ button:hover, #submit:hover{
     cursor: pointer;
 }
 
+_::-webkit-full-page-media, _:future, :root  .welcome{
+    background: url(src/img/fon.jpg) 0% 35% fixed;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
 
+}
 .welcome{
     display: table;
     height: 100vh;
@@ -168,7 +175,6 @@ button:hover, #submit:hover{
     transform: scale(1.05);
 }
 
-
 .photo_t:hover .img_descript {
     visibility: visible;
 }
@@ -176,41 +182,6 @@ button:hover, #submit:hover{
     text-align: center;
 }
 
-/*#petrolhead{
-    background: url("src/img/1.jpg") 50% 50%;
-    background-size: cover;
-}
-#petrolhead .welcome_text{
-    background: rgba(0,0,0,0.6);
-}*/
-#petrolhead h2{
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    color: white;
-    font-size: 32px;
-    font-weight: normal;
-    text-transform: uppercase;
-}
-article{
-    background: url("src/img/asphalt.jpg") 100% 100% fixed;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    min-width: 100%;
-    min-height: 100%;
-}
-.crewman{
-    display: block;
-    padding: 150px 0 150px 0;
-    margin: 0;
-    background-color: white;
-}
-.face{
-    display: inline-block;
-    padding: 0 75px 0 150px;
-    width: calc((100% - 453px) / 10 * 6);
-}
 img{
     width: 100%;
 }
@@ -240,21 +211,16 @@ p{
 
 header{
     display: inline-block;
-//background: rgb(0, 0, 0);
     color: white;
     position: fixed;
     top: 0;
     min-width: 900px;
     max-width: 100%;
-//text-align: center;
     z-index: 10000;
     font-family: Roboto;
     font-weight: 900;
 }
 
-strike{
-    color: red;
-}
 .scrollDown{
     position: absolute;
     bottom: 5vh;
@@ -265,11 +231,10 @@ strike{
 @media all and (max-device-width: 1275px){
     .welcome{
         display: table;
-        height: calc(100vh - 4cm);
         width: 100vw;
-        min-height: calc(100vh - 4cm);
-        min-width: 100%;
-        max-width: 100%;
+        background: url(src/img/fon.jpg) center no-repeat !important;
+        background-size: cover !important;
+
     }
     .welcome_text{
         display: table-row;
