@@ -4,7 +4,7 @@
     src: url("src/fonts/roboto.css");
 }
 @font-face {
-    font-family: AvenirNext;
+    font-family:    ;
     src: url("src/fonts/Avenir Next.ttf");
 }
 @font-face {
@@ -130,13 +130,23 @@ _::-webkit-full-page-media, _:future, :root  .welcome{
     vertical-align: middle;
     text-align: center;
     color: white;
-    font-size: 60px;
+    font-size: 5.5rem;
     padding-bottom: 100px;
 }
 #intro{
     height: 150px;
     text-align: center;
     padding-top: 50px;
+}
+#descrip h2{
+    width: 80%;
+    margin: 0 10%;
+    padding-top: 50px;
+    text-align: justify;
+    font-weight: inherit;
+    font-family: Graphik;
+    font-size: 1.2rem;
+    line-height: 160%;
 }
 .row{    
     margin: 50px 0;
