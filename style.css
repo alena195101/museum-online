@@ -251,6 +251,11 @@ header{
         color: white;
         font-size: 450%;
     }
+    #descrip h2{
+        width: 90%;
+        margin: 0 5%;
+        font-size: 35px;
+    }
     h1{
         font-size: 300%;
     }
