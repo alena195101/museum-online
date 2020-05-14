@@ -161,9 +161,9 @@ _::-webkit-full-page-media, _:future, :root  .welcome{
 }
 
 .photo{
-    width: 100$;
+    width: 100%;
     opacity: 1;
-    transition: opacity 124ms linear, transform 124ms linear;
+
 }
 .img_descript{
     position: absolute;
