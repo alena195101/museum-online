@@ -11,3 +11,13 @@ function ready() {
 	}
 }
 
+var ua = navigator.userAgent.toLowerCase(); 
+if (ua.indexOf('safari') != -1) { 
+  if (ua.indexOf('chrome') > -1) {
+  } else {
+    $(".photo").css({
+            width: "100%";
+    		opacity: "1";
+        });
+  }
+}
