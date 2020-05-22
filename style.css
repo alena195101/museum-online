@@ -231,10 +231,15 @@ header{
     left: calc(50% - 30px);
 }
 .logo img{
-    width: 70px;
+    width: 56px;
+    margin: 0 0.5%;
 }
 #footer{
     margin-bottom: 20px;
+}
+#footer h3{
+    margin-top: 20px;
+    font-size: 15px;
 }
 
 @media all and (max-device-width: 1275px){
